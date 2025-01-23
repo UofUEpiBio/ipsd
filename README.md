@@ -1,6 +1,6 @@
 # IPSD
 
-> IPSD is unfinished software; see `TODO`.
+> IPSD is unfinished software; see `TODO.md`.
 
 IPSD (or interpreter passthrough server daemon) is software that enables clients
 to run script code remotely over an HTTP connection, without putting the server

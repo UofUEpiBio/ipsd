@@ -33,8 +33,8 @@ See the below table.
 ### Compilation
 
 IPSD is built with [Meson](https://mesonbuild.com), and thus can be built
-by following the formula you may be familiar with from building previous
-pieces of software written in Meson.
+by following the formula you may be familiar with if you've ever built software
+built with Meson before.
 
 Before building, however, you must configure IPSD with the languages you
 want it to support, and point it towards the appropriate environments for

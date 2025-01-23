@@ -1,0 +1,9 @@
+.cache/
+.ropeproject/
+images/
+build/
+subprojects/*/
+
+.DS_Store
+*.info
+compile_commands.json

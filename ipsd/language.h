@@ -1,0 +1,6 @@
+#ifndef IPSD_LANGUAGE_H
+#define IPSD_LANGUAGE_H
+
+enum IPSD_Language { IPSD_LANGUAGE_PYTHON, IPSD_LANGUAGE_R };
+
+#endif /* IPSD_LANGUAGE_H */

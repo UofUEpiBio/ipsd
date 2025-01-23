@@ -1,0 +1,6 @@
+option('ipsd_port', type : 'integer', value : 8080, description : 'Port to listen on.')
+option('ipsd_enable_python', type : 'boolean', value : true, description : 'Enable Python language support.')
+
+option('ipsd_py_venv', type : 'string', value : '', description : 'Python virtual environment to use (empty for none).')
+option('ipsd_py_venv_isolated', type : 'boolean', value : true, description : 'Is the Python virtual environment fully isolated?')
+option('ipsd_py_venv_site', type : 'string', value : '', description : 'Location of the Python virtual environment\'s site packages.')

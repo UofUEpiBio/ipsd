@@ -25,10 +25,10 @@ See the below table.
 ##### Syscall Restriction Mechanisms
 
 **Method**        |**Strength**|**Platform**
-:----------------:|:----------:|:----------:
+:-----------------|:-----------|:-----------
 `sandbox_init(3)` |Strong      |macOS
 `seccomp(2)`      |Strong      |Linux
-`pledge(2)`       |Strong      |OpenBSD,FreeBSD
+`pledge(2)`       |Strong      |OpenBSD, FreeBSD
 
 ### Compilation
 
@@ -76,3 +76,9 @@ facility to do that.
 It is recommended to place IPSD behind a reverse proxy, and run all
 communication over HTTPS/TLS. You can use [Nginx](https://nginx.org/) or
 [Caddy](https://caddyserver.com/) for this.
+
+## Disclaimer
+
+The authors of this software, nor any organization they are associated with,
+may be held responsible--legally and morally--for any damages caused by this
+software.
